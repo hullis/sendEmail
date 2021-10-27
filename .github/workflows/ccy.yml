@@ -2,7 +2,7 @@ name: ccy-helper
 
 on:
   schedule:
-    - cron: "00 23 * * *" # 每天的0点、8点、12点、21点都执行一次
+    - cron: "00 06 * * *" # 每天的6点执行一次、国际标准时间
 
 jobs:
   send:
