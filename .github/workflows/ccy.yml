@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
       - name: Run Project
-      env:
+      with:
         EMAILPASS: ${{secrets.EMAILPASS}}
         SENDEMAIL: ${{secrets.SENDEMAIL}}
         TOEMAIL: ${{secrets.TOEMAIL}}
